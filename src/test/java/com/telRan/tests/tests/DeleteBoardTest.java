@@ -1,4 +1,4 @@
-package com.telRan.tests;
+package com.telRan.tests.tests;
 
 import org.testng.annotations.Test;
 
