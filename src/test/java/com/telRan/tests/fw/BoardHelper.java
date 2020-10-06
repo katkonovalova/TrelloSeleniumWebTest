@@ -70,4 +70,5 @@ public class BoardHelper extends HelperBase {
         return  isElementPresent(By.xpath(personalBoards));
     }
 
+
 }

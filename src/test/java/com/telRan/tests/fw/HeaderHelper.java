@@ -47,7 +47,26 @@ public class HeaderHelper extends HelperBase{
         return isElementPresent(By.xpath("//button[@data-test-id='header-member-menu-button']"));
     }
 
+    public void clickOnMoreFromMenu() {
+        click(By.xpath("//*[@class='board-menu-navigation']//*[@class='board-menu-navigation-item-link js-open-more']"));
 
+    }
 
+    public void exitFromAboutThisBord() {
+        click(By.cssSelector("[class='board-menu-header-back-button icon-lg icon-back js-pop-widget-view']"));
 
+    }
+    public void closeBoardPlusConfirm() {
+        click(By.xpath("//*[@class='board-menu-content-frame']//*[@class='board-menu-navigation-item-link js-close-board']"));
+        click(By.cssSelector("[class='js-confirm full negate']"));
+    }
+
+    public void clickOnPermanentlyDeletePlusConfirm() {
+        click(By.cssSelector("[class='quiet js-delete']"));
+        click(By.cssSelector("[class='js-confirm full negate']"));
+    }
+
+    public void returnOnHomePageFromHeader() {
+        click(By.cssSelector("[data-test-id='header-home-button']"));
+    }
 }
