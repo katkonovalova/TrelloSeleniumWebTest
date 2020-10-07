@@ -10,8 +10,8 @@ public class Board {
         return this;
     }
 
-    public Board withTeamVisibility(String teamVisibility) {
-        this.boardVisibility = teamVisibility;
+    public Board withTeamVisibility(String boardVisibility) {
+        this.boardVisibility = boardVisibility;
         return this;
     }
 
