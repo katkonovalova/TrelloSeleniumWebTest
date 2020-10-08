@@ -31,6 +31,8 @@ public class DataProviders {
         String line = reader.readLine();
         while (line!=null){
             String[] split = line.split(",");
+            System.out.println(split[0]);
+            System.out.println(split[1]);
             list.add(new Object[]{new Board().withBoardName(split[0])
                     .withTeamVisibility(split[1])});
             line = reader.readLine();

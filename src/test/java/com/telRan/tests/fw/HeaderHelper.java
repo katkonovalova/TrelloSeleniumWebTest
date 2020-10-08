@@ -69,4 +69,10 @@ public class HeaderHelper extends HelperBase{
     public void returnOnHomePageFromHeader() {
         click(By.cssSelector("[data-test-id='header-home-button']"));
     }
+
+    public void openProfile() {
+
+        click(By.cssSelector("[data-test-id='header-member-menu-profile']"));
+
+    }
 }
