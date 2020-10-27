@@ -5,7 +5,6 @@
         <classes>
             <class name="com.telRan.tests.tests.BoardCreationTest"></class>
             <class name="com.telRan.tests.tests.BoardModificationTest"></class>
-
         </classes>
     </test>
 </suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.tests.tests.BoardModificationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-27T18:56:13" hostname="Katerynas-MacBook-Pro.local" time="0.694">
+  <properties/>
+  <testcase name="modifyBoardTest" classname="com.telRan.tests.tests.BoardModificationTest" time="0.694"/>
+  <system-out><![CDATA[20:56:13.925 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test modifyBoardTestwith parameters []
+20:56:14.620 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test modifyBoardTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

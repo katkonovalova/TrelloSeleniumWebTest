@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.tests.tests.DeleteBoardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-27T18:56:14" hostname="Katerynas-MacBook-Pro.local" time="2.626">
+  <properties/>
+  <testcase name="deleteBoardTest" classname="com.telRan.tests.tests.DeleteBoardTest" time="2.626"/>
+  <system-out><![CDATA[20:56:14.621 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test deleteBoardTestwith parameters []
+was: 104 now: 103
+20:56:17.249 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test deleteBoardTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

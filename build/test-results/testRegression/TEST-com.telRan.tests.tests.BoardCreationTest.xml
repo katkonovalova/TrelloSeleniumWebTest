@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.tests.tests.BoardCreationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-27T18:55:50" hostname="Katerynas-MacBook-Pro.local" time="23.309">
+  <properties/>
+  <testcase name="boardCreationTest" classname="com.telRan.tests.tests.BoardCreationTest" time="2.981"/>
+  <testcase name="boardCreationTest2" classname="com.telRan.tests.tests.BoardCreationTest" time="2.543"/>
+  <testcase name="boardCreationTestFromDataProvider[0](1DPboard, public)" classname="com.telRan.tests.tests.BoardCreationTest" time="2.451"/>
+  <testcase name="boardCreationTestFromDataProvider[1](1D-Pboard, public)" classname="com.telRan.tests.tests.BoardCreationTest" time="2.735"/>
+  <testcase name="boardCreationTestFromDataProvider[2](1, public)" classname="com.telRan.tests.tests.BoardCreationTest" time="2.863"/>
+  <testcase name="boardCreationTestFromDataProvider[3](!@#$%, public)" classname="com.telRan.tests.tests.BoardCreationTest" time="2.47"/>
+  <testcase name="boardCreationTestFromDataProviderCSV[0](Board{boardName='1', boardVisibility='public'})" classname="com.telRan.tests.tests.BoardCreationTest" time="2.388"/>
+  <testcase name="boardCreationTestFromDataProviderCSV[1](Board{boardName='qwerty', boardVisibility='public'})" classname="com.telRan.tests.tests.BoardCreationTest" time="2.382"/>
+  <testcase name="boardCreationTestFromDataProviderCSV[2](Board{boardName='23wertgdv', boardVisibility='public'})" classname="com.telRan.tests.tests.BoardCreationTest" time="2.472"/>
+  <system-out><![CDATA[20:55:50.613 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestwith parameters []
+was: 95 now: 96
+20:55:53.595 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTest
+20:55:53.596 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTest2with parameters []
+was: 96 now: 97
+20:55:56.140 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTest2
+20:55:56.147 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestFromDataProviderwith parameters [1DPboard, public]
+was: 97 now: 98
+20:55:58.599 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTestFromDataProvider
+20:55:58.600 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestFromDataProviderwith parameters [1D-Pboard, public]
+was: 98 now: 99
+20:56:01.336 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTestFromDataProvider
+20:56:01.337 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestFromDataProviderwith parameters [1, public]
+was: 99 now: 100
+20:56:04.201 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTestFromDataProvider
+20:56:04.203 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestFromDataProviderwith parameters [!@#$%, public]
+was: 100 now: 101
+20:56:06.674 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTestFromDataProvider
+1
+public
+qwerty
+public
+23wertgdv
+public
+20:56:06.676 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestFromDataProviderCSVwith parameters [Board{boardName='1', boardVisibility='public'}]
+was: 101 now: 102
+20:56:09.065 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTestFromDataProviderCSV
+20:56:09.066 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestFromDataProviderCSVwith parameters [Board{boardName='qwerty', boardVisibility='public'}]
+was: 102 now: 103
+20:56:11.449 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTestFromDataProviderCSV
+20:56:11.450 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTestFromDataProviderCSVwith parameters [Board{boardName='23wertgdv', boardVisibility='public'}]
+was: 103 now: 104
+20:56:13.922 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop test boardCreationTestFromDataProviderCSV
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
