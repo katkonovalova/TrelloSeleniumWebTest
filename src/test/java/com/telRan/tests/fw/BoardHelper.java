@@ -18,8 +18,8 @@ public class BoardHelper extends HelperBase {
         //team
         click(By.cssSelector(".W6rMLOx8U0MrPx"));
         //to check!!!!
-        if (isElementPresent(By.cssSelector("._1eiLh4-SJ3G7CY"))) {
-            click(By.xpath("//nav[@class='_1eiLh4-SJ3G7CY']//li[1]/button"));
+        if (isElementPresent(By.cssSelector("._2hS1AF-Jh6QPG4"))) {
+            click(By.xpath("//nav[@class='_2hS1AF-Jh6QPG4']//li[1]/button"));
         }
 
         //public/private ("" + var + "")
@@ -33,7 +33,7 @@ public class BoardHelper extends HelperBase {
 //        }
 
         if (board.getBoardVisibility().equals("public")) {
-            click(By.cssSelector(".X6LMWvod566P68 button"));
+            click(By.cssSelector(".G7qauLECfKVgm8 button"));
         }
     }
     public int getBoardsCount() {
