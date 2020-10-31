@@ -68,6 +68,7 @@ public class BoardCreationTest extends TestBase {
 
         int before = app.board().getBoardsCount();
         app.header().clickOnPlusButton();
+        
         app.header().selectCreateBoard();
         app.board().fillBoardForm(new Board()
                 .withBoardName("new qa24 board")
